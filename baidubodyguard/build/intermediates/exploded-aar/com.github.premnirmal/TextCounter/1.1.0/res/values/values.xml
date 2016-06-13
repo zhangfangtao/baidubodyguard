@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CounterView"><attr format="string" name="prefix"/><attr format="string" name="suffix"/><attr format="float" name="timeInterval"/><attr format="float" name="incrementValue"/><attr format="float" name="startValue"/><attr format="float" name="endValue"/><attr format="boolean" name="formatText"/><attr format="boolean" name="autoStart"/><attr format="enum" name="type"><enum name="integer" value="0"/><enum name="decimal" value="1"/><enum name="both" value="2"/></attr><attr name="android:text"/></declare-styleable>
+</resources>

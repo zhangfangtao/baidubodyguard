@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/contacts_items_shape"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+    <TextView
+        android:id="@+id/help_person_number"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:text="13203311093"/>
+    <TextView
+        android:id="@+id/help_person_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/help_person_number"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"/>
+    <ImageButton
+        android:id="@+id/del_help_personbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/contact_cancel"
+        android:background="@android:color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="15dp"
+        />
+</RelativeLayout>

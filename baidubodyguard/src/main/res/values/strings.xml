@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">百度手机卫士</string>
+    <string name="xuke">同意<u>《安装许可协议》</u></string>
+    <string name="gaijin">加入<u>用户体验改进计划</u></string>
+    <string name="skip">跳过</string>
+    <string name="version">V8.0.5</string>
+
+
+    <string name="mobile_speedup">手机加速</string>
+    <string name="clear_rubbish">垃圾清理</string>
+    <string name="security_guard">安全防护</string>
+    <string name="parent_protect">家人防护</string>
+    <string name="treasure_box_up">百宝箱</string>
+    <string name="kill_virus">病毒查杀</string>
+    <string name="harass_intercept">骚扰拦截</string>
+    <string name="software_lock">软件锁</string>
+    <string name="app_manager">应用管理</string>
+    <string name="flow_bill">流量话费</string>
+    <string name="mobile_slimming">手机瘦身</string>
+    <string name="safe_toolkit">安全工具</string>
+    <string name="wifi_raid">Wi-Fi雷达</string>
+    <string name="root_mode">超强模式</string>
+    <string name="nofi_quiet">防通知骚扰</string>
+    <string name="security_search">安全搜索</string>
+    <string name="permission_manager">权限管理</string>
+    <string name="treasure_box_down">回首页</string>
+    <string name="grab_tickets">急速抢票</string>
+
+    <string name="qiandao">签到领经验  </string>
+    <string name="usetime">小卫伴你2天</string>
+    <string name="user_level">新手上路</string>
+    <string name="medal">14个勋章快去领取></string>
+    <string name="experience">5个任务完成领经验></string>
+    <string name="guard_box">小卫盒子</string>
+    <string name="my_wallet">  我的钱包</string>
+    <string name="general_setting">通用设置</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="version_update">版本升级</string>
+
+    <string name="my_wallet_info">安全 优惠 省心</string>
+    <string name="baiduRemind">百度手机卫士提示</string>
+    <string name="networkinfo">网络当前不可用，请检查网络设置！</string>
+    <string name="About">关于</string>
+    <string name="load_versionUpdate">正在检查更新...</string>
+    <string name="softinfo">更快，更安全</string>
+    <string name="Developer">开发人员：刘小龙</string>
+    <string name="school">所在学校：湖南汽车工程职业学院</string>
+    <string name="Email">邮箱：lxl970211@outlook.com</string>
+
+    <string name="onekey_for_help">一键求救</string>
+    <string name="onekey_for_help_info">危急时刻，瞬间求救</string>
+    <string name="onekey_for_help_info2">绑定紧急联系人快速求救</string>
+    <string name="protect_family">守护家人</string>
+    <string name="protect_family_info">开启守护，谨防诈骗</string>
+    <string name="justime_alert">实时警讯</string>
+    <string name="justime_alert_info">动态播报，即刻安全</string>
+
+
+    <string name="add_contacts_EditText_hint">请输入手机号（最多添加3人）</string>
+    <string name="add_contacts_msg_info">我遇到危险，现在不方面打电话，请帮助我。</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="determine">确定</string>
+    <string name="select_contacts">选择联系人 (0)</string>
+    <string name="inputNeedSelectContacts">请输入要查找的联系人</string>
+    <string name="about_onekey_forhelp">注意:请确保手机信号通畅，并授权百度手机卫士发送短信、读取位置信息的权限</string>
+    <string name="urgentContacts">紧急联系人</string>
+
+    <string name="Running_processes">正在运行的进程</string>
+    <string name="onekey_speedup">一键加速</string>
+    <string name="myApp">我的应用</string>
+    <string name="searchApp">搜索应用</string>
+    
+    
+    <string name="uninstallApp">应用卸载</string>
+    <string name="app_update">应用升级</string>
+    <string name="Securitymarket">安全市场</string>
+    <string name="appmove">应用搬家</string>
+    <string name="package_manage">安装包管理</string>
+    <string name="uninstall_system_app">预装应用卸载</string>
+    <string name="who_is_Undercover">谁是卧底</string>
+    <string name="like">猜你喜欢</string>
+</resources>

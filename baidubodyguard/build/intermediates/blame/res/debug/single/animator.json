@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\animator\\alpha_out_fragment.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\animator\\alpha_out_fragment.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\animator\\alpha_in_fragment.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\animator\\alpha_in_fragment.xml"
+    }
+]

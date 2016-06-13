@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zzptc.LiuXiaolong.baidu.activity.OneKey_for_help">
+
+
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/onekey_for_help_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="一键求救"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary"
+
+        >
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            >
+            <ImageView
+                android:id="@+id/question"
+                style="@style/onekeyforhelpImageview"
+                android:src="@mipmap/question"
+                />
+            <ImageView
+                style="@style/onekeyforhelpImageview"
+                android:id="@+id/onekey_for_help_setting"
+                android:src="@mipmap/setting"
+                android:visibility="gone"
+                />
+        </FrameLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/onekey_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorPrimary">
+
+    </FrameLayout>
+
+</LinearLayout>

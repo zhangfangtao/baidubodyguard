@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.zzptc.LiuXiaolong.baidu.activity.AppManager">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/app_manager_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="@string/app_manager"
+        app:titleTextColor="@android:color/white"
+        app:navigationIcon="@mipmap/back">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            >
+            <com.github.premnirmal.textcounter.CounterView
+                android:id="@+id/install_app_count"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:textColor="@android:color/white"
+                />
+            <TextView
+                android:id="@+id/app_manager_use_memory_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="款应用；已用"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+         <ProgressBar
+             android:id="@+id/app_manager_bar"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="10dp"
+             style="?android:attr/progressBarStyleHorizontal"
+             android:max="100"
+             android:progress="40"
+             android:progressDrawable="@drawable/bar_color"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/my_app"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:background="@drawable/appmanagerbtn"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/b8"
+                    android:layout_margin="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/myApp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/search_app"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/appmanagerbtn">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ac"
+                    android:layout_margin="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/searchApp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rowCount="3"
+        app:columnCount="3">
+        <TextView
+            android:id="@+id/app_manager_uninstall_app"
+            style="@style/AppManagerGridLayoutTextViewStyle"
+            android:drawableTop="@mipmap/uninstall"
+            android:text="@string/uninstallApp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:background="@drawable/app_manager_itemstv"
+
+            />
+        <TextView
+            android:id="@+id/app_manager_app_update"
+            style="@style/AppManagerGridLayoutTextViewStyle"
+            android:drawableTop="@mipmap/appudate"
+            android:text="@string/app_update"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            />
+        <TextView
+            style="@style/AppManagerGridLayoutTextViewStyle"
+            android:drawableTop="@mipmap/security_market"
+            android:text="@string/Securitymarket"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            />
+        <TextView
+            android:id="@+id/app_manager_app_move"
+            style="@style/AppManagerGridLayoutTextViewStyle"
+            android:drawableTop="@mipmap/sdcard"
+            android:text="@string/appmove"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:background="@drawable/app_manager_itemstv"
+
+            />
+        <TextView
+            android:id="@+id/package_manage"
+            style="@style/AppManagerGridLayoutTextViewStyle"
+            android:drawableTop="@mipmap/packagemanage"
+            android:text="@string/package_manage"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            />
+        <TextView
+            android:id="@+id/app_manager_uninstall_system_app"
+            style="@style/AppManagerGridLayoutTextViewStyle"
+            android:drawableTop="@mipmap/uninstallsystemapp"
+            android:text="@string/uninstall_system_app"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            />
+        <TextView
+            style="@style/AppManagerGridLayoutTextViewStyle"
+            android:drawableTop="@mipmap/u"
+            android:text="@string/who_is_Undercover"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:background="@drawable/app_manager_itemstv"
+
+            />
+        <TextView
+            style="@style/AppManagerGridLayoutTextViewStyle"
+            android:drawableTop="@mipmap/like"
+            android:text="@string/like"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            />
+
+
+
+    </android.support.v7.widget.GridLayout>
+
+
+</LinearLayout>

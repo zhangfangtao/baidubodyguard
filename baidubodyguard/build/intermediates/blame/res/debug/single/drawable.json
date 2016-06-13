@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_speedup_dialog_button2.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\shape_speedup_dialog_button2.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\app_manager_itemstv.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\app_manager_itemstv.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\open_onekey_help.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\open_onekey_help.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\shape_round.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\experience_unperssed.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\experience_unperssed.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\menubtn_pressed.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\menubtn_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\load_background.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\load_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\search_contacts_edittext_shape.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\search_contacts_edittext_shape.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\appmanagerbtn.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\appmanagerbtn.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_speedup_dialog_button.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\shape_speedup_dialog_button.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\menubtn_unpressed.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\menubtn_unpressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\five.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\five.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\experience_perssed.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\experience_perssed.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\usercenterlistitems.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\usercenterlistitems.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\onekey_checkbox_selector.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\onekey_checkbox_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_num.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\msg_num.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\menubtn_selector.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\menubtn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\bar_color.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\bar_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\search_contacts_head.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\search_contacts_head.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\experience_selector.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\experience_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\contacts_items_shape.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\contacts_items_shape.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\usercenter_items_unpressed.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\usercenter_items_unpressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    }
+]

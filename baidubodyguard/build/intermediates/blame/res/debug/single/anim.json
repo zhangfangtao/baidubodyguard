@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\mainui.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\mainui.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_exit_this_activity.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\alpha_exit_this_activity.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\exit_treasure.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\exit_treasure.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\toolsitems_up.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\toolsitems_up.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\exit_welcome.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\exit_welcome.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_in.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\alpha_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_enter_orther_activity.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\alpha_enter_orther_activity.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_out.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\alpha_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\toolsitems_down.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\toolsitems_down.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\rate_down.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\rate_down.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\load_animation.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\load_animation.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\rate_up.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\rate_up.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\transition2.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\transition2.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\rate.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\rate.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\open_treasure1.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\open_treasure1.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\welcome.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\anim\\welcome.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_slide_in_bottom.xml"
+    }
+]

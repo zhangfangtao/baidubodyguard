@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/myPhone" android:title="我的手机"
+         app:showAsAction="never"/>
+    <item android:id="@+id/myDownload" android:title="我的下载" app:showAsAction="never"/>
+    <item android:id="@+id/aboutBodyguard" android:title="关于卫士" app:showAsAction="never"/>
+</menu>

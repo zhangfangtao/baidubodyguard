@@ -1,0 +1,2 @@
+CHANGED,E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\zzptc\LiuXiaolong\baidu\activity\AppManager$override.class

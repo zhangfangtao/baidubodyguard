@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xhdpi"
+    format="7"
+    timestamp="822752316940722" >
+
+    <task
+        name="javac"
+        duration="1160" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="55" />
+    <task
+        name="verifier"
+        duration="3" />
+
+    <artifact
+        location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+
+    <build timestamp="818340280480501" >
+        <artifact
+            location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\outputs\apk\baidubodyguard-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="820285898610295" >
+        <artifact
+            location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="822752316940722" >
+        <artifact
+            location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

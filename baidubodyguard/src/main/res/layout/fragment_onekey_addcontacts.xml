@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.Onekey_AddContacts_Fragment"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/add_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请添加紧急联系人和求救短信"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_margin="20dp"/>
+    <LinearLayout
+        android:id="@+id/add_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_contacts">
+        <EditText
+            android:id="@+id/add_phone"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_contacts_EditText_hint"
+            android:paddingLeft="15dp"
+            android:inputType="number"
+            android:textColor="@android:color/darker_gray"
+            android:maxLength="11"
+            />
+        <FrameLayout
+            android:id="@+id/determine_btn"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/add_phone_picbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/add_contacts"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                />
+            <Button
+                android:id="@+id/add_phone_determine"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:text="@string/determine"
+                android:textColor="@android:color/white"
+                android:background="?attr/colorPrimary"
+                android:visibility="gone"
+               />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/lv_contacts"
+        android:layout_width="match_parent"
+        android:layout_below="@id/add_phonenumber"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+    </ListView>
+    <EditText
+        android:id="@+id/help_info"
+        android:layout_below="@id/lv_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="@string/add_contacts_msg_info"
+        android:maxLength="40"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/help_info_count"
+        android:layout_below="@id/help_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/40"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"/>
+
+
+        <Button
+            android:id="@+id/btn_complete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="完成"
+            android:background="@color/btn_complete_unpressed"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"/>
+    <CheckBox
+        android:id="@+id/add_contacts_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="短信通知紧急联系人我已开启一键求救"
+        android:checked="true"
+        android:button="@drawable/onekey_checkbox_selector"
+        android:textSize="17dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/btn_complete"/>
+
+</RelativeLayout>
