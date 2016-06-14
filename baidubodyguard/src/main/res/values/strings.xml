@@ -70,8 +70,8 @@
     <string name="onekey_speedup">一键加速</string>
     <string name="myApp">我的应用</string>
     <string name="searchApp">搜索应用</string>
-    
-    
+
+
     <string name="uninstallApp">应用卸载</string>
     <string name="app_update">应用升级</string>
     <string name="Securitymarket">安全市场</string>
@@ -80,4 +80,6 @@
     <string name="uninstall_system_app">预装应用卸载</string>
     <string name="who_is_Undercover">谁是卧底</string>
     <string name="like">猜你喜欢</string>
+    <string name="installed">已安装</string>
+    <string name="installLogs">安装记录</string>
 </resources>

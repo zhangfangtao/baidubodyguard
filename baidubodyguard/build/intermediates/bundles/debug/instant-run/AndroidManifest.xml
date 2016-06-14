@@ -92,6 +92,7 @@
             android:name="com.zzptc.LiuXiaolong.baidu.activity.Mobile_speedup"
             android:theme="@style/AppTheme" />
         <activity android:name="com.zzptc.LiuXiaolong.baidu.activity.AppManager" />
+        <activity android:name="com.zzptc.LiuXiaolong.baidu.activity.MyApp" />
     </application>
 
 </manifest>

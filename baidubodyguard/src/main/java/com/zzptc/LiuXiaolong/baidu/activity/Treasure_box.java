@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.zzptc.LiuXiaolong.baidu.R;
+import com.zzptc.LiuXiaolong.baidu.Tools.Anim;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -39,7 +40,8 @@ public class Treasure_box extends Activity{
             case R.id.app_manager:
                 //跳转到应用管理页面
                 startActivity(new Intent(this,AppManager.class));
-                overridePendingTransition(R.anim.alpha_enter_orther_activity,R.anim.alpha_exit_this_activity);
+                //activity跳转动画
+                Anim.enterActivityAnim(this);
                 break;
         }
     }

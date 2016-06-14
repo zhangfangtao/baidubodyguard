@@ -2,6 +2,7 @@ package com.zzptc.LiuXiaolong.baidu.activity;
 
 import android.app.ActivityManager;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.LabeledIntent;
 import android.content.pm.PackageInfo;
@@ -13,17 +14,21 @@ import android.os.Bundle;
 import android.text.format.Formatter;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.github.premnirmal.textcounter.CounterView;
 import com.zzptc.LiuXiaolong.baidu.Model.AppInfo;
 import com.zzptc.LiuXiaolong.baidu.R;
+import com.zzptc.LiuXiaolong.baidu.Tools.Anim;
 import com.zzptc.LiuXiaolong.baidu.Tools.MemeryTools;
 import com.zzptc.LiuXiaolong.baidu.Tools.Tools;
 
 import org.w3c.dom.Text;
 import org.xutils.view.annotation.ContentView;
+import org.xutils.view.annotation.Event;
 import org.xutils.view.annotation.ViewInject;
 import org.xutils.x;
 
@@ -42,6 +47,11 @@ public class AppManager extends AppCompatActivity {
     private TextView memory_use_info;
     @ViewInject(R.id.app_manager_bar)
     private ProgressBar bar;
+    @ViewInject(R.id.my_app)
+    private LinearLayout my_app;
+
+
+    private MemeryTools memeryTools;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,15 +61,17 @@ public class AppManager extends AppCompatActivity {
 
 
     public void init(){
+
+        memeryTools = new MemeryTools();
         String temp = memory_use_info.getText().toString();
 
         //已使用的ROM空间
-        String usememory = MemeryTools.convertStorage(getTotalInternalStorgeSize()-getAvailableInternalStorgeSize());
+        String usememory = MemeryTools.convertStorage(memeryTools.getTotalInternalStorgeSize()-memeryTools.getAvailableInternalStorgeSize());
 
-        memory_use_info.setText(temp+usememory+"/"+MemeryTools.convertStorage(getTotalInternalStorgeSize()));
+        memory_use_info.setText(temp+usememory+"/"+MemeryTools.convertStorage(memeryTools.getTotalInternalStorgeSize()));
 
-        long use = getTotalInternalStorgeSize()-getAvailableInternalStorgeSize();
-        double memory = (double) use/(double) getTotalInternalStorgeSize();
+        long use = memeryTools.getTotalInternalStorgeSize()-memeryTools.getAvailableInternalStorgeSize();
+        double memory = (double) use/(double) memeryTools.getTotalInternalStorgeSize();
 
         //使用内存占总内存的百分比进度条
         bar.setMax(100);
@@ -72,10 +84,25 @@ public class AppManager extends AppCompatActivity {
         //设置counterview显示安装的应用数量
         installAppCount.setStartValue(0);
         installAppCount.setAutoStart(true);
-        installAppCount.setEndValue(getInstallAppInfo().size());
+        installAppCount.setEndValue(memeryTools.getInstallAppInfo(this).size());
         installAppCount.setIncrement(1f);
         installAppCount.setTimeInterval(1);
     }
+
+
+    @Event(value = R.id.my_app)
+    private void getEvent(View v){
+        switch (v.getId()){
+            case R.id.my_app:
+                startActivity(new Intent(this, MyApp.class));
+                //activity跳转动画
+                Anim.enterActivityAnim(this);
+                break;
+        }
+    }
+
+
+
 
     //返回
     @Override
@@ -87,57 +114,6 @@ public class AppManager extends AppCompatActivity {
         return super.onKeyDown(keyCode, event);
     }
 
-    /**
-     * 获取安装的应用信息
-     * @return
-     */
-    private ArrayList<AppInfo> getInstallAppInfo(){
-        ArrayList<AppInfo> list = new ArrayList<>();
-        List<PackageInfo> packagelist = this.getPackageManager().getInstalledPackages(0);
-        for (int i = 0; i<packagelist.size(); i++){
-            PackageInfo info = packagelist.get(i);
-            AppInfo appInfo = new AppInfo();
-            appInfo.setAppName(info.applicationInfo.loadLabel(getPackageManager()).toString());
-            appInfo.setPackageName(info.packageName);
-            appInfo.setVersionCode(info.versionCode);
-            appInfo.setVersionName(info.versionName);
 
-            appInfo.setIcon(info.applicationInfo.loadIcon(getPackageManager()));
-            if ((info.applicationInfo.flags & info.applicationInfo.FLAG_SYSTEM)<=0){
-                list.add(appInfo);
-                System.out.println(appInfo.getAppName());
-            }
-        }
-
-
-        return list;
-    }
-
-
-    /**
-     * 获取ROM大小
-     */
-    /**
-     * 获取手机内部空间大小
-     * @return
-     */
-    public static long getTotalInternalStorgeSize() {
-        File path = Environment.getDataDirectory();
-        StatFs mStatFs = new StatFs(path.getPath());
-        long blockSize = mStatFs.getBlockSize();
-        long totalBlocks = mStatFs.getBlockCount();
-        return totalBlocks * blockSize;
-    }
-    /**
-     * 获取手机内部可用空间大小
-     * @return
-     */
-    public static long getAvailableInternalStorgeSize() {
-        File path = Environment.getDataDirectory();
-        StatFs mStatFs = new StatFs(path.getPath());
-        long blockSize = mStatFs.getBlockSize();
-        long availableBlocks = mStatFs.getAvailableBlocks();
-        return availableBlocks * blockSize;
-    }
 
 }

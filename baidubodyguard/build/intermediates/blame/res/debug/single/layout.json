@@ -16,6 +16,14 @@
         "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\layout\\activity_onekey_for_help.xml"
     },
     {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_app.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\layout\\activity_my_app.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\items_app_manager_installed.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\layout\\items_app_manager_installed.xml"
+    },
+    {
         "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
@@ -48,12 +56,12 @@
         "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\layout\\dialogfragment_load__version.xml"
     },
     {
-        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
         "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\activity_app_manager.xml",
         "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\layout\\activity_app_manager.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -276,8 +284,16 @@
         "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\layout\\welcome.xml"
     },
     {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_installed_app_time.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\layout\\fragment_installed_app_time.xml"
+    },
+    {
         "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\dialogfragment_network.xml",
         "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\layout\\dialogfragment_network.xml"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_installedapp.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\layout\\fragment_installedapp.xml"
     },
     {
         "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",

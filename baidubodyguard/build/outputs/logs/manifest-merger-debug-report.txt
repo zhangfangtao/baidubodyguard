@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:2:1-90:12
+ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:2:1-91:12
 	package
 		ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml
@@ -82,7 +82,7 @@ ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml
 	android:name
 		ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:35:22-81
 application
-ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:37:5-88:19
+ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:37:5-89:19
 MERGED from [com.android.support:gridlayout-v7:23.3.0] E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\23.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.3.0] E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.3.0] E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
@@ -219,9 +219,13 @@ ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml
 	android:name
 		ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:85:13-52
 activity#com.zzptc.LiuXiaolong.baidu.activity.AppManager
-ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:87:9-66
+ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:87:9-57
 	android:name
 		ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:87:19-54
+activity#com.zzptc.LiuXiaolong.baidu.activity.MyApp
+ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:88:9-61
+	android:name
+		ADDED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml:88:19-49
 uses-sdk
 INJECTED from E:\AndroidDevelop\NewDemo\baidubodyguard\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:gridlayout-v7:23.3.0] E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\23.3.0\AndroidManifest.xml:20:5-43

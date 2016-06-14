@@ -2,6 +2,8 @@ package com.zzptc.LiuXiaolong.baidu.Model;
 
 import android.graphics.drawable.Drawable;
 
+import java.util.Date;
+
 /**
  * Created by lxl97 on 2016/6/8.
  */
@@ -11,6 +13,7 @@ public class AppInfo {
     private String packageName;
     private Drawable icon;
     private int versionCode;
+    private Date firstInstallTime;
 
     public String getAppName() {
         return appName;
@@ -50,5 +53,13 @@ public class AppInfo {
 
     public void setVersionCode(int versionCode) {
         this.versionCode = versionCode;
+    }
+
+    public Date getFirstInstallTime() {
+        return firstInstallTime;
+    }
+
+    public void setFirstInstallTime(Date firstInstallTime) {
+        this.firstInstallTime = firstInstallTime;
     }
 }

@@ -84,7 +84,8 @@
         <activity
             android:name=".activity.Mobile_speedup"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.AppManager"></activity>
+        <activity android:name=".activity.AppManager" />
+        <activity android:name=".activity.MyApp"></activity>
     </application>
 
 </manifest>

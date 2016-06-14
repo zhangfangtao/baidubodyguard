@@ -44,12 +44,12 @@
         "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\mipmap-xxhdpi\\ac.png"
     },
     {
-        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\b8.png",
-        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\mipmap-xxhdpi\\b8.png"
-    },
-    {
         "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\u.png",
         "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\mipmap-xxhdpi\\u.png"
+    },
+    {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\b8.png",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\mipmap-xxhdpi\\b8.png"
     },
     {
         "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\open_third.png",

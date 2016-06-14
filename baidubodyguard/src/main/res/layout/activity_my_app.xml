@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.zzptc.LiuXiaolong.baidu.activity.MyApp">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_app_toolbar"
+        style="@style/ToolbarStyle"
+        app:navigationIcon="@mipmap/back"
+        app:title="@string/myApp"
+        app:titleTextColor="@android:color/white"
+        >
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:id="@+id/app_manager_appinfo"
+        android:layout_width="match_parent"
+        android:layout_below="@id/my_app_toolbar"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_install_app"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/installed"
+            android:textColor="@android:color/darker_gray"
+            android:background="@drawable/my_app_btn_shape"
+            />
+        <Button
+            android:id="@+id/btn_install_appTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/my_app_btn_shape"
+            android:textColor="@android:color/darker_gray"
+            android:text="@string/installLogs"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/installed_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_manager_appinfo"
+        android:text="已安装8个应用"
+        android:textSize="15dp"
+        android:layout_margin="10dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_installed_app"
+        android:layout_below="@id/installed_count"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</RelativeLayout>

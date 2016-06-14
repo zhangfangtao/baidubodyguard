@@ -4,39 +4,54 @@
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="822752316940722" >
+    timestamp="1149443208361075" >
 
     <task
         name="javac"
-        duration="1160" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="55" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
     <artifact
-        location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
+        location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="818340280480501" >
+    <build timestamp="1146809757721423" >
         <artifact
             location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\outputs\apk\baidubodyguard-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="820285898610295" >
+    <build timestamp="1149315008344831" >
         <artifact
-            location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="822752316940722" >
+            location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
         <artifact
             location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
             type="DEX" />
+        <artifact
+            location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1149443208361075" >
+        <artifact
+            location="E:\AndroidDevelop\NewDemo\baidubodyguard\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

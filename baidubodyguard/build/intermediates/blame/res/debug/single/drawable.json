@@ -60,6 +60,10 @@
         "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\menubtn_pressed.xml"
     },
     {
+        "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\my_app_btn_shape.xml",
+        "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\my_app_btn_shape.xml"
+    },
+    {
         "merged": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\build\\intermediates\\res\\merged\\debug\\drawable\\load_background.xml",
         "source": "E:\\AndroidDevelop\\NewDemo\\baidubodyguard\\src\\main\\res\\drawable\\load_background.xml"
     },

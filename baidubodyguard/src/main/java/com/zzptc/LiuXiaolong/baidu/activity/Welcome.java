@@ -11,10 +11,12 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.zzptc.LiuXiaolong.baidu.MainActivity;
+import com.zzptc.LiuXiaolong.baidu.Model.AppInfo;
 import com.zzptc.LiuXiaolong.baidu.Model.Contacts;
 import com.zzptc.LiuXiaolong.baidu.Model.TaskInfo;
 import com.zzptc.LiuXiaolong.baidu.R;
 import com.zzptc.LiuXiaolong.baidu.Tools.ImportDB;
+import com.zzptc.LiuXiaolong.baidu.Tools.MemeryTools;
 import com.zzptc.LiuXiaolong.baidu.Tools.Tools;
 import com.zzptc.LiuXiaolong.baidu.Utils.Read_Contacts;
 import com.zzptc.LiuXiaolong.baidu.receiver.ScreenReceiver;
@@ -75,6 +77,13 @@ public class Welcome extends Activity implements Runnable {
                     Read_Contacts.setList((ArrayList<Contacts>) list);
                 }
 
+                ArrayList<AppInfo> appinfolist = MemeryTools.getAppInfolist();
+                if (appinfolist == null){
+                    MemeryTools memeryTools = new MemeryTools();
+                    appinfolist = memeryTools.getInstallAppInfo(Welcome.this);
+
+                    MemeryTools.setAppInfolist(appinfolist);
+                }
 
             }
         });
